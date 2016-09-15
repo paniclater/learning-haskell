@@ -12,4 +12,3 @@ deleteNth' :: [Int] -> Int -> [Int]
 deleteNth' [] _ = []
 deleteNth' xs 0 = xs
 deleteNth' xs y = deleteNth [] xs y
-    
